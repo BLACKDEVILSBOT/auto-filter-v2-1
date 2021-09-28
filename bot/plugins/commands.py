@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚒️ Developers', url="https://t.me/AD_BOTZ"
+                                    'CHANNEL', url="https://t.me/AD_BOTZ"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/AD_BOTZ'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Moringtar2/Adv-Auto-Filter-Bot-V2-1')
+        InlineKeyboardButton('🕵️ Dev', url='https://t.me/AD_BOTZ'),
+        InlineKeyboardButton('🎖️ CHANNEL 🎖️', url ='https://github.com/Moringtar2/Adv-Auto-Filter-Bot-V2-1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/ONLY_CODES')
+        InlineKeyboardButton('🛡️ GROUP 🛡️', url='https://t.me/ONLY_CODES')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
