@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🕵️ Dev', url='https://t.me/AD_BOTZ'),
-        InlineKeyboardButton('🎖️ CHANNEL 🎖️', url ='https://github.com/Moringtar2/Adv-Auto-Filter-Bot-V2-1')
+        InlineKeyboardButton('🕵️ Dev', url='https://t.me/CinemaLokhm'),
+        InlineKeyboardButton('🎖️ GROUP 🎖️', url ='https://t.me/CinemaLokhm'),
     ],[
-        InlineKeyboardButton('🛡️ GROUP 🛡️', url='https://t.me/ONLY_CODES')
+        InlineKeyboardButton('🔒 CLOSE', callback_data='close')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -59,7 +59,7 @@ async def start(bot, update):
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/326884cc76c25598bca5a.jpg",
+        photo="https://i.ibb.co/GQNPm7F/Photo-1492135826.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
